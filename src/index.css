@@ -1,4 +1,4 @@
-*{
+.app{
     background-color: rgb(34, 36, 37);
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@
 
     
 }
-a.panel{
+.panel{
     background-color: rgb(37, 39, 34);
     height: 23px;
     float: left;
@@ -29,20 +29,20 @@ a.panel{
     
 }
 
-a.panel:hover{
+.panel:hover{
     background-color: rgb(64, 169, 123);
     color: black;
 }
 
-div.header__buttom{
+.header__buttom{
     background-color: inherit;
 }
 
-div.first-panel{
+.first-panel{
     margin-top: 65px;
 
 }
-div.mainpanel{
+.mainpanel{
     
     display: grid;
     background-color : rgb(34, 36, 37);
@@ -65,13 +65,13 @@ div.mainpanel{
     
 }
 
-img{
+.img_panel{
     height:80%;
     width: 80%;
     border-radius: 20px;
 }
 
-p.mainpanel__subdiv__track-name{
+.mainpanel__subdiv__track-name{
     margin-top: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 120%;
