@@ -1,0 +1,80 @@
+.app{
+    background-color: rgb(34, 36, 37);
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display:flex;
+    background-color: rgb(37, 39, 34);
+    height:50px;
+    width: 100%;
+    color: rgb(96, 168, 120);
+    position: fixed;
+    justify-content: space-between;
+
+
+    
+}
+.panel{
+    background-color: rgb(37, 39, 34);
+    height: 23px;
+    float: left;
+    display: block;
+    color: rgb(96, 168, 120);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin-left: 3px;
+    border-radius: 15px;
+    
+}
+
+.panel:hover{
+    background-color: rgb(64, 169, 123);
+    color: black;
+}
+
+.header__buttom{
+    background-color: inherit;
+}
+
+.first-panel{
+    margin-top: 65px;
+
+}
+.mainpanel{
+    
+    display: grid;
+    background-color : rgb(34, 36, 37);
+    margin-left: 24%;
+    width:52%;
+    height: max-content;
+    grid-row-gap: 15px;
+
+    
+}
+.mainpanel__subdiv{
+    width: 88%;
+    margin-left: 2%;
+    text-align: center;
+    background-color: rgb(26, 27, 24) ;
+    padding: 1.5em;
+    color: white;
+    margin: 100px, 10px;
+    border-radius:25px;
+    
+}
+
+.img_panel{
+    height:80%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.mainpanel__subdiv__track-name{
+    margin-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    color: rgb(183, 184, 183);
+    background-color:inherit ;
+}
